@@ -19,6 +19,10 @@ public class PRUEBA{
     @Column(length=50)
     @Required  
     String nombre;
+
+     @Column(length=50)
+    @Required  
+    String apellido;
     
     @Column(length=50) @Required
     String descripcion;
@@ -29,7 +33,7 @@ public class PRUEBA{
     //SE AGREGO LA SIGUIENTE LINEAS DE CODIGO
     
     @Column(length=20) @Required
-    String SEXO;
+    String sexo;
     
  
     
